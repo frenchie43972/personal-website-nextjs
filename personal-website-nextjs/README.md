@@ -1,0 +1,15 @@
+project
+  -public
+  -src
+    -app
+      -globals.css
+      -layout.tsx
+      -page.tsx
+  -.eslintrc.json
+  -next-env.d.ts
+  -next.config.js
+  -package-lock.js
+  -package.json
+  -postcss.config.js
+  -tailwind.config.ts
+  -tsconfig.json
