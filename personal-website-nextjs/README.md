@@ -1,10 +1,20 @@
 project
-  -public
-  -src
-    -app
+  >public
+  >src
+    >app
+      >about
+        -page.tsx
+      >contact
+        -page.tsx
+      >portfolio
+        -page.tsx
       -globals.css
       -layout.tsx
       -page.tsx
+      >components
+        -footer.tsx
+        -header.tsx
+        -horizontalRule.tsx
   -.eslintrc.json
   -next-env.d.ts
   -next.config.js
