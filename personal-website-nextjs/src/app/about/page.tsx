@@ -1,6 +1,7 @@
 import Image from "next/image";
 import krisPic from '/public/profile_pic.jpg';
 import HorizontalRule from "@/components/horizontalRule";
+import Collapsible from "@/components/collapsible";
 
 export default function About() {
     return (
@@ -18,12 +19,16 @@ export default function About() {
                 how things work and how to make them work better. This curiosity led me from fine-tuning
                 fighter jets to diving into the details of quality assurance and then on to fighter maintenance management. 
                 After a rewarding stint in aviation, I shifted gears to IT, embracing the challenges of change and project 
-                management in the ship repai field. My journey did not stop there; I pursued a Bachelors in Software Development and soon landed
+                management in the ship repair field. My journey did not stop there; I pursued a Bachelors in Software Development and soon landed
                 a role where I am now exploring the exciting world of application and SharePoint development. 
                 Every step of my path has been about learning, adapting, and applying - it has been a wild ride, 
                 and I love bringing this eclectic mix of experiences to solve new puzzles in the tech world.
             </p>
             <HorizontalRule/>
+            <p className="text-3xl mt-8 mb-4 text-center">Work Experience</p>
+            <Collapsible title="2023 - Present">
+                <p>My recent experience</p>
+            </Collapsible>
         </div>
     );
 };

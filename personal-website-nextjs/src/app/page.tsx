@@ -14,8 +14,10 @@ export default function Home() {
       </div>
       <div>
         <p className="text-3xl mt-8 mb-4 text-center"> Hello, My Name is Kris French.</p>
-        <p className="text-l">
-          Transforming visions into reality, I develop solutions that marry beauty with efficiency.  My approach centers on sleek, user-friendly designs underpinned by robust functionality. Each project is a chance for me to explore new horizons in modern, accessible digital solutions, ensuring that your online presence stands out as truly exceptional.
+        <p className="text-l text-center">
+          I love turning ideas into reality, creating solutions that are as beautiful as they are functional. 
+          My goal is simple: to build user-friendly designs that work flawlessly. For me, every project is a 
+          new adventure to make your online presence uniquely outstanding.
         </p>
       </div>
     </div>
