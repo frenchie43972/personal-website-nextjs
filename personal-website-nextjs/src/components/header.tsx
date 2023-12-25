@@ -14,7 +14,6 @@ export default function Header() {
                             alt="Photo of a very handsome gentlemen"
                         /> 
                     </div>
-                    
                 </Link>
               
                 <div className='space-x-8 text-xl mr-4'>

@@ -20,8 +20,8 @@ export default function Collapsible({title, children}) {
             </button>
             {/* A container to hold the content that will be shown/hidden */}
             <div 
-                className={`transition-height duration-500 ease-in-out
-                            ${isOpen ? 'max-h-96' : 'max-h-0'}`}
+                className={`transition-height ease-in-out duration-500
+                            ${isOpen ? 'max-h-full' : 'max-h-0'}`}
                 aria-hidden={!isOpen}
             >
                 {/* A container holds the information that will be in the children prop 

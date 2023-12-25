@@ -3,7 +3,7 @@ import brandLogo from '/public/k_f_logo.png';
 
 export default function Home() {
   return (
-    <div className="container w-2/4 mx-auto p-8 flex flex-col items-center">
+    <div className="container h-screen w-2/4 mx-auto p-8 flex flex-col items-center">
       <div className="w-96 h-96 relative rounded-full overflow-hidden -mb-16">
         <Image 
           alt="A logo for Kris French Web Developer" 
