@@ -26,7 +26,9 @@ export default function About() {
             </p>
             <HorizontalRule/>
             <p className="text-3xl mt-8 mb-4 text-center">Work Experience</p>
-            <Collapsible title="2023 - Present">
+            <Collapsible 
+                title="2023 - Present"
+            >
                 Application Developer | Change Control Manager | Scrum Master<br/><br/>
                 I blend creativity with technology as an Application Developer and SharePoint Expert. My daily routine involves translating complex project requirements into user-friendly applications, a challenge that involves meticulous coding, debugging, and problem-solving. Designing and maintaining SharePoint solutions is where I shine, creating sites and workflows that enhance organizational efficiency and user experience.<br/><br/>
 
@@ -50,3 +52,5 @@ export default function About() {
         </div>
     );
 };
+
+// transition-height  ease-in-out duration-500 overflow-hidden
